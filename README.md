@@ -16,7 +16,31 @@ In this Linux lab, as a security analyst for Lucky Duck Casino, the objective wa
 - <b>Apache Guacamole on Ubuntu VM</b>
 
 <h2>Program walk-through:</h2>
+<p>Using basic command-line skills, I uncovered the identities of the rogue casino player and dealer colluding to scam Lucky Duck out of thousands of dollars. These steps were conducted on my Ubuntu VM hosted on Apache Guacamole provided by UT Austin's Cybersecurity Bootcamp team.</p>
 
+<h2>Step 1: Investigation Preparation</h2>
+<ul>
+ <li>Navigate to your HOME directory</li>
+ <ul>
+  <li><i>cd /home/sysadmin</i></li>
+ </ul>
+ <li>Make a single directory titled Lucky_Duck_Investigations then navigate to this new directory.</li>
+ <ul>
+  <li><i>mkdir Lucky_Duck_Investigations</i></li>
+  <li><i>cd Lucky_Duck_Investigations</i></li>
+ </ul>
+ <li>In the Lucky_Duck_Investigations directory, create a directory for this specific investigation titled Roulette_Loss_Investigation.</li>
+ <ul>
+  <li><i>mkdir Roulette_Loss_Investigation</i></li>
+ </ul>
+ <li>In Roulette_Loss_Investigation, create the following directories:</li>
+ <ul>
+  <li>Player_Analysis to investigate the casino player. - <i>mkdir Player_Analysis</i></li>
+  <li>Dealer_Analysis to investigate the dealers. - <i>mkdir Dealer_Analysis</i></li>
+  <li>Player_Dealer_Correlation to summarize your findings about the collusion. - <i>mkdir Player_Dealer_Correlation</i></li>
+ </ul>
+ <li>Create empty files called Notes_<Directory_Name>.txt under each subdirectory to store investigation notes.</li>
+</ul>
 <p align="center">
 Launch the utility: <br/>
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>

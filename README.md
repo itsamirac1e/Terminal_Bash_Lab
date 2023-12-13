@@ -40,42 +40,26 @@ In this Linux lab, as a security analyst for Lucky Duck Casino, the objective wa
   <li>Player_Dealer_Correlation to summarize your findings about the collusion. - <i>mkdir Player_Dealer_Correlation</i></li>
  </ul>
  <li>Create empty files called Notes_<Directory_Name>.txt under each subdirectory to store investigation notes.</li>
+  <ul>
+   <li><i>touch Player_Analysis/Notes_Player_Analysis.txt</i></li>
+   <li><i>touch Dealer_Analysis/Notes_Dealer_Analysis.txt</i></li>
+   <li><i>touch Player_Dealer_Correlation/Notes_Player_Dealer_Correlation.txt</i></li>
+  </ul>
 </ul>
 <p align="center">
 Launch the utility: <br/>
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
+<h2>Step 2: Gathering Evidence</h2>
+<p>In this task, I moved evidecne from the specific dats on which Lucky Duck experience heavy losses at the roulette tables using the following commands:</p>
+
+<ul>
+ <li>Navigate to your HOME (/home/sysadmin) directory where you created the Lucky_Duck_Investigations directory and run the following command to set up the evidence files:</li>
+ <ul>
+  <li>wget "https://drive.google.com/uc?id=1ZLY_fuFu3wz7tOlxf-GUrnvp3htuGKSa" -O 3-HW-setup-evidence && chmod +x ./3-HW-setup-evidence && ./3-HW-setup-evidence</li>
+ </ul>
+ 
+</ul>
+  
